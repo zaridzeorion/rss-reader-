@@ -1,0 +1,47 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: .65rem;
+}
+ 
+form { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+input {
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 0.25em 1em;
+}
+ 
+input, button {
+    font-size: 1.5rem;
+}
+ 
+button {
+    border-radius: 15px;
+    display: inline-block;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.2em 1em;
+}
+
+ul {
+    font-size: 1.35em;
+    padding: 0;
+    list-style-type: none;
+    padding: 0 3.5em;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1em;
+}
